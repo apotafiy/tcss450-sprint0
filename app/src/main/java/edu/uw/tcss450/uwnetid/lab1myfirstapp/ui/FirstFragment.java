@@ -52,5 +52,4 @@ public class FirstFragment extends Fragment {
         mBinding.buttonSend.setOnClickListener(button -> processMessage());
     }
 
-
 }
