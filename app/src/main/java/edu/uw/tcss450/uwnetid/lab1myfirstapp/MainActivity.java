@@ -8,6 +8,7 @@ import android.util.Log;
 public class MainActivity extends AppCompatActivity {
 
     // This is Katlyn's change!
+    //Another change
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,26 +20,26 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart(){
         super.onStart(); // TODO does this need for stuff? should there be args?
-        Log.w("This is a test warning","Test test test");
+        Log.w("This is a test warning","Testing for Kate!");
 
     }
 
     @Override
     protected void onResume(){
         super.onResume();
-        Log.i("This is test information","Test test test");
+        Log.i("This is test information","Testing!");
     }
 
     @Override
     protected void onPause(){
         super.onPause();
-        Log.d("This is a test debug","Test test test");
+        Log.d("This is a test debug","Testing!");
     }
 
     @Override
     protected void onStop(){
         super.onStop();
-        Log.v("This is a test verbose","Test test test");
+        Log.v("This is a test verbose","Testing!");
 
     }
 
