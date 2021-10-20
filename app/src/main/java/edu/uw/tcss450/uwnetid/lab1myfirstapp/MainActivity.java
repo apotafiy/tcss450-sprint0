@@ -7,6 +7,8 @@ import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
+    // This is Katlyn's change!
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
